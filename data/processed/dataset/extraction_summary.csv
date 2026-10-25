@@ -1,0 +1,4 @@
+split,total_rows,en_samples,zh_samples,ar_samples,positive_samples,neutral_samples,negative_samples
+train,90000,30000,30000,30000,30000,30000,30000
+validation,13500,4500,4500,4500,4500,4500,4500
+test,13500,4500,4500,4500,4500,4500,4500

@@ -1,0 +1,17 @@
+{
+  "selection_status": "candidate_best_set",
+  "languages": [
+    "en",
+    "zh",
+    "ar"
+  ],
+  "language_count": 3,
+  "score": 0.85072237892477,
+  "balance_score": 0.906466,
+  "minimum_balanced_capacity": 175602,
+  "median_balanced_capacity": 381678.0,
+  "source_diversity": 0.6614086666666666,
+  "domain_diversity": 0.6614086666666666,
+  "leakage_score": 0.9978122864956083,
+  "total_cross_split_overlap": 7951
+}

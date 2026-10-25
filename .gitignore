@@ -1,0 +1,48 @@
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Python cache and byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files (raw caches and large downloads)
+data/raw/
+*.parquet
+*.arrow
+
+# Model checkpoints and weights
+models/*.pt
+models/*.bin
+models/*.safetensors
+models/*.onnx
+models/checkpoints/
+
+# MLflow tracking
+mlruns/
+.mlflow/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and scratch
+*.log
+scratch/
+tmp/
+*.tmp

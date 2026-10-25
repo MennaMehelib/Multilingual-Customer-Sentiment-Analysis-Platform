@@ -1,0 +1,239 @@
+{
+  "target_languages": [
+    "en",
+    "zh",
+    "ar"
+  ],
+  "target_labels": [
+    "positive",
+    "neutral",
+    "negative"
+  ],
+  "random_seed": 42,
+  "raw_counts": {
+    "train_raw_streamed": 3147478,
+    "validation_raw_streamed": 393435,
+    "test_raw_streamed": 393436
+  },
+  "invalid_empty_removed": {
+    "train": 0,
+    "validation": 0,
+    "test": 0
+  },
+  "leakage_removed": {
+    "train_val_overlap": 107,
+    "train_test_or_val_test_overlap": 131
+  },
+  "splits": {
+    "train": {
+      "total_rows": 90000,
+      "language_counts": {
+        "ar": 30000,
+        "en": 30000,
+        "zh": 30000
+      },
+      "sentiment_counts": {
+        "negative": 30000,
+        "neutral": 30000,
+        "positive": 30000
+      },
+      "lang_x_sentiment": {
+        "ar_negative": 10000,
+        "en_neutral": 10000,
+        "zh_negative": 10000,
+        "ar_positive": 10000,
+        "en_positive": 10000,
+        "en_negative": 10000,
+        "zh_positive": 10000,
+        "zh_neutral": 10000,
+        "ar_neutral": 10000
+      },
+      "top_sources": [
+        [
+          "https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews",
+          14744
+        ],
+        [
+          "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+          10099
+        ],
+        [
+          "https://www.kaggle.com/competitions/arabic-sentiment-analysis-2021-kaust/data",
+          9466
+        ],
+        [
+          "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+          8954
+        ],
+        [
+          "https://huggingface.co/datasets/Yelp/yelp_review_full",
+          7780
+        ]
+      ],
+      "top_domains": [
+        [
+          "tweets",
+          18420
+        ],
+        [
+          "reviews (hotels, books, movies, products and a few airlines)",
+          14744
+        ],
+        [
+          "amazon reviews",
+          10968
+        ],
+        [
+          "places reviews",
+          7780
+        ],
+        [
+          "22 domains",
+          7015
+        ]
+      ]
+    },
+    "validation": {
+      "total_rows": 13500,
+      "language_counts": {
+        "en": 4500,
+        "ar": 4500,
+        "zh": 4500
+      },
+      "sentiment_counts": {
+        "positive": 4500,
+        "negative": 4500,
+        "neutral": 4500
+      },
+      "lang_x_sentiment": {
+        "en_positive": 1500,
+        "ar_negative": 1500,
+        "zh_neutral": 1500,
+        "ar_neutral": 1500,
+        "ar_positive": 1500,
+        "zh_negative": 1500,
+        "en_negative": 1500,
+        "zh_positive": 1500,
+        "en_neutral": 1500
+      },
+      "top_sources": [
+        [
+          "https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews",
+          2230
+        ],
+        [
+          "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+          1592
+        ],
+        [
+          "https://www.kaggle.com/competitions/arabic-sentiment-analysis-2021-kaust/data",
+          1398
+        ],
+        [
+          "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+          1288
+        ],
+        [
+          "https://huggingface.co/datasets/Yelp/yelp_review_full",
+          1179
+        ]
+      ],
+      "top_domains": [
+        [
+          "tweets",
+          2686
+        ],
+        [
+          "reviews (hotels, books, movies, products and a few airlines)",
+          2230
+        ],
+        [
+          "amazon reviews",
+          1715
+        ],
+        [
+          "places reviews",
+          1179
+        ],
+        [
+          "22 domains",
+          1012
+        ]
+      ]
+    },
+    "test": {
+      "total_rows": 13500,
+      "language_counts": {
+        "en": 4500,
+        "ar": 4500,
+        "zh": 4500
+      },
+      "sentiment_counts": {
+        "positive": 4500,
+        "negative": 4500,
+        "neutral": 4500
+      },
+      "lang_x_sentiment": {
+        "en_positive": 1500,
+        "ar_negative": 1500,
+        "zh_neutral": 1500,
+        "ar_neutral": 1500,
+        "ar_positive": 1500,
+        "zh_negative": 1500,
+        "en_negative": 1500,
+        "zh_positive": 1500,
+        "en_neutral": 1500
+      },
+      "top_sources": [
+        [
+          "https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews",
+          2170
+        ],
+        [
+          "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+          1482
+        ],
+        [
+          "https://www.kaggle.com/competitions/arabic-sentiment-analysis-2021-kaust/data",
+          1422
+        ],
+        [
+          "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+          1345
+        ],
+        [
+          "https://huggingface.co/datasets/Yelp/yelp_review_full",
+          1165
+        ]
+      ],
+      "top_domains": [
+        [
+          "tweets",
+          2767
+        ],
+        [
+          "reviews (hotels, books, movies, products and a few airlines)",
+          2170
+        ],
+        [
+          "amazon reviews",
+          1600
+        ],
+        [
+          "places reviews",
+          1165
+        ],
+        [
+          "22 domains",
+          1090
+        ]
+      ]
+    }
+  },
+  "post_verification": {
+    "verified_train_val_overlap": 0,
+    "verified_train_test_overlap": 0,
+    "verified_val_test_overlap": 0,
+    "zero_leakage_guaranteed": true
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "sample_size": 6000,
+  "languages": [
+    "ar",
+    "en",
+    "zh"
+  ],
+  "strategies": [
+    "minimal",
+    "standard",
+    "aggressive"
+  ],
+  "metrics_by_language_and_strategy": {
+    "en_minimal": {
+      "language": "en",
+      "strategy": "minimal",
+      "sample_count": 2000,
+      "affected_rows": 299,
+      "affected_pct": 14.95,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 434.04,
+      "mean_char_length_after": 434.04,
+      "length_reduction_pct": 0.0,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "zh_minimal": {
+      "language": "zh",
+      "strategy": "minimal",
+      "sample_count": 2000,
+      "affected_rows": 557,
+      "affected_pct": 27.85,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 48.39,
+      "mean_char_length_after": 48.39,
+      "length_reduction_pct": 0.0,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "ar_minimal": {
+      "language": "ar",
+      "strategy": "minimal",
+      "sample_count": 2000,
+      "affected_rows": 5,
+      "affected_pct": 0.25,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 172.69,
+      "mean_char_length_after": 172.69,
+      "length_reduction_pct": 0.0,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "en_standard": {
+      "language": "en",
+      "strategy": "standard",
+      "sample_count": 2000,
+      "affected_rows": 1817,
+      "affected_pct": 90.85,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 434.04,
+      "mean_char_length_after": 434.89,
+      "length_reduction_pct": -0.2,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "zh_standard": {
+      "language": "zh",
+      "strategy": "standard",
+      "sample_count": 2000,
+      "affected_rows": 1797,
+      "affected_pct": 89.85,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 48.39,
+      "mean_char_length_after": 47.77,
+      "length_reduction_pct": 1.3,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "ar_standard": {
+      "language": "ar",
+      "strategy": "standard",
+      "sample_count": 2000,
+      "affected_rows": 1245,
+      "affected_pct": 62.25,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 172.69,
+      "mean_char_length_after": 170.81,
+      "length_reduction_pct": 1.09,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "en_aggressive": {
+      "language": "en",
+      "strategy": "aggressive",
+      "sample_count": 2000,
+      "affected_rows": 1842,
+      "affected_pct": 92.1,
+      "empty_rows_created": 2,
+      "mean_char_length_before": 434.04,
+      "mean_char_length_after": 423.8,
+      "length_reduction_pct": 2.36,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 1999,
+      "new_duplicates_collapsed": 1
+    },
+    "zh_aggressive": {
+      "language": "zh",
+      "strategy": "aggressive",
+      "sample_count": 2000,
+      "affected_rows": 1947,
+      "affected_pct": 97.35,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 48.39,
+      "mean_char_length_after": 46.55,
+      "length_reduction_pct": 3.81,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 2000,
+      "new_duplicates_collapsed": 0
+    },
+    "ar_aggressive": {
+      "language": "ar",
+      "strategy": "aggressive",
+      "sample_count": 2000,
+      "affected_rows": 1817,
+      "affected_pct": 90.85,
+      "empty_rows_created": 0,
+      "mean_char_length_before": 172.69,
+      "mean_char_length_after": 165.83,
+      "length_reduction_pct": 3.98,
+      "raw_unique_count": 2000,
+      "clean_unique_count": 1999,
+      "new_duplicates_collapsed": 1
+    }
+  },
+  "overall_by_strategy": {
+    "minimal": {
+      "total_samples": 6000,
+      "affected_rows": 861,
+      "affected_pct": 14.35,
+      "empty_rows": 0,
+      "mean_char_length_before": 218.38,
+      "mean_char_length_after": 218.37,
+      "length_reduction_pct": 0.0,
+      "collapsed_duplicates": 0
+    },
+    "standard": {
+      "total_samples": 6000,
+      "affected_rows": 4859,
+      "affected_pct": 80.98,
+      "empty_rows": 0,
+      "mean_char_length_before": 218.38,
+      "mean_char_length_after": 217.82,
+      "length_reduction_pct": 0.25,
+      "collapsed_duplicates": 0
+    },
+    "aggressive": {
+      "total_samples": 6000,
+      "affected_rows": 5606,
+      "affected_pct": 93.43,
+      "empty_rows": 2,
+      "mean_char_length_before": 218.38,
+      "mean_char_length_after": 212.06,
+      "length_reduction_pct": 2.89,
+      "collapsed_duplicates": 2
+    }
+  },
+  "qualitative_examples": {
+    "en": [
+      {
+        "label": "positive",
+        "raw": "We thoroughly enjoyed the Westin St. Francis Hotel on Union Square. Conveniently located on busy Union Square, the cable cars are a stone's throw away. You won't be at a loss for things to do, see, and places to dine in this neighborhood.\nThe hotel was lovely, the staff friendly and helpful, and our room more than adequate. Our bathroom was quite small, but no complaints here. We were treated well as guests and we'll be back when we again visit this happening town.",
+        "minimal": "We thoroughly enjoyed the Westin St. Francis Hotel on Union Square. Conveniently located on busy Union Square, the cable cars are a stone's throw away. You won't be at a loss for things to do, see, and places to dine in this neighborhood. The hotel was lovely, the staff friendly and helpful, and our room more than adequate. Our bathroom was quite small, but no complaints here. We were treated well as guests and we'll be back when we again visit this happening town.",
+        "standard": "we thoroughly enjoyed the westin st. francis hotel on union square. conveniently located on busy union square, the cable cars are a stone's throw away. you will not be at a loss for things to do, see, and places to dine in this neighborhood. the hotel was lovely, the staff friendly and helpful, and our room more than adequate. our bathroom was quite small, but no complaints here. we were treated well as guests and we will be back when we again visit this happening town.",
+        "aggressive": "we thoroughly enjoyed the westin st francis hotel on union square conveniently located on busy union square the cable cars are a stone s throw away you will not be at a loss for things to do see and places to dine in this neighborhood the hotel was lovely the staff friendly and helpful and our room more than adequate our bathroom was quite small but no complaints here we were treated well as guests and we will be back when we again visit this happening town"
+      },
+      {
+        "label": "negative",
+        "raw": "Please do not buy from here, save yourself the Hassel. A complete scam, item awaiting dispatch for over a week when called to ask how long it will take I was told their are delays and wait 10-15 days, I then asked to just cancel it and was told not allowed to cancel, they don't follow trading standards their customer service speak little English.",
+        "minimal": "Please do not buy from here, save yourself the Hassel. A complete scam, item awaiting dispatch for over a week when called to ask how long it will take I was told their are delays and wait 10-15 days, I then asked to just cancel it and was told not allowed to cancel, they don't follow trading standards their customer service speak little English.",
+        "standard": "please do not buy from here, save yourself the hassel. a complete scam, item awaiting dispatch for over a week when called to ask how long it will take i was told their are delays and wait 10-15 days, i then asked to just cancel it and was told not allowed to cancel, they do not follow trading standards their customer service speak little english.",
+        "aggressive": "please do not buy from here save yourself the hassel a complete scam item awaiting dispatch for over a week when called to ask how long it will take i was told their are delays and wait 10 15 days i then asked to just cancel it and was told not allowed to cancel they do not follow trading standards their customer service speak little english"
+      },
+      {
+        "label": "neutral",
+        "raw": "The vegetarian banana leaf is somehow average taste and the options are very limited for vegetarians. I expected more varieties of veggies will ve available. The roti canai was delicious, They serve every meal on a banana leaf, which adds to my appetite.Service is fast too. Often crowded during lunch hours, especially on fridays.",
+        "minimal": "The vegetarian banana leaf is somehow average taste and the options are very limited for vegetarians. I expected more varieties of veggies will ve available. The roti canai was delicious, They serve every meal on a banana leaf, which adds to my appetite.Service is fast too. Often crowded during lunch hours, especially on fridays.",
+        "standard": "the vegetarian banana leaf is somehow average taste and the options are very limited for vegetarians. i expected more varieties of veggies will ve available. the roti canai was delicious, they serve every meal on a banana leaf, which adds to my appetite.service is fast too. often crowded during lunch hours, especially on fridays.",
+        "aggressive": "the vegetarian banana leaf is somehow average taste and the options are very limited for vegetarians i expected more varieties of veggies will ve available the roti canai was delicious they serve every meal on a banana leaf which adds to my appetite service is fast too often crowded during lunch hours especially on fridays"
+      }
+    ],
+    "zh": [
+      {
+        "label": "positive",
+        "raw": "知日这个挺好的,还会继续买的",
+        "minimal": "知日这个挺好的,还会继续买的",
+        "standard": "知日这个挺好的,还会继续买的",
+        "aggressive": "知日这个挺好的 还会继续买的"
+      },
+      {
+        "label": "positive",
+        "raw": "稍有瑕疵\n灯罩很轻薄，造成接缝处有小小的缝，或许是运送中压到了。",
+        "minimal": "稍有瑕疵 灯罩很轻薄，造成接缝处有小小的缝，或许是运送中压到了。",
+        "standard": "稍有瑕疵灯罩很轻薄,造成接缝处有小小的缝,或许是运送中压到了.",
+        "aggressive": "稍有瑕疵灯罩很轻薄 造成接缝处有小小的缝 或许是运送中压到了"
+      },
+      {
+        "label": "neutral",
+        "raw": "有毛刺\n物流很快，但是质量一般，板材的边边有毛刺，还有掉块的",
+        "minimal": "有毛刺 物流很快，但是质量一般，板材的边边有毛刺，还有掉块的",
+        "standard": "有毛刺物流很快,但是质量一般,板材的边边有毛刺,还有掉块的",
+        "aggressive": "有毛刺物流很快 但是质量一般 板材的边边有毛刺 还有掉块的"
+      }
+    ],
+    "ar": [
+      {
+        "label": "neutral",
+        "raw": "غير صريحين مع الزبون . موقف السيارات. يتلاعبون في سعر الليالي الاضافيةوغير واضحين مع الزبون من البداية",
+        "minimal": "غير صريحين مع الزبون . موقف السيارات. يتلاعبون في سعر الليالي الاضافيةوغير واضحين مع الزبون من البداية",
+        "standard": "غير صريحين مع الزبون . موقف السيارات. يتلاعبون في سعر الليالي الاضافيةوغير واضحين مع الزبون من البداية",
+        "aggressive": "غير صريحين مع الزبون موقف السيارات يتلاعبون في سعر الليالي الاضافيةوغير واضحين مع الزبون من البدايه"
+      },
+      {
+        "label": "negative",
+        "raw": "مخيب للأمل. . زبالة الرسيبشن وطريقة تعاملهم",
+        "minimal": "مخيب للأمل. . زبالة الرسيبشن وطريقة تعاملهم",
+        "standard": "مخيب للامل. . زبالة الرسيبشن وطريقة تعاملهم",
+        "aggressive": "مخيب للامل زباله الرسيبشن وطريقه تعاملهم"
+      },
+      {
+        "label": "positive",
+        "raw": "وجهك لحاله ذنب مابعده ذنب وجايه تنصحين بعد كل من فسى جا يفتي ويحدث علينا 😂",
+        "minimal": "وجهك لحاله ذنب مابعده ذنب وجايه تنصحين بعد كل من فسى جا يفتي ويحدث علينا 😂",
+        "standard": "وجهك لحاله ذنب مابعده ذنب وجايه تنصحين بعد كل من فسى جا يفتي ويحدث علينا 😂",
+        "aggressive": "وجهك لحاله ذنب مابعده ذنب وجايه تنصحين بعد كل من فسي جا يفتي ويحدث علينا"
+      }
+    ]
+  }
+}

@@ -1,0 +1,298 @@
+{
+  "en": [
+    {
+      "source": "https://huggingface.co/datasets/Yelp/yelp_review_full",
+      "count": 389963
+    },
+    {
+      "source": "https://huggingface.co/datasets/winvoker/turkish-sentiment-analysis-dataset",
+      "count": 170715
+    },
+    {
+      "source": "https://huggingface.co/datasets/sabulaban/sentiment",
+      "count": 167128
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/choonkhonng/malaysia-restaurant-review-datasets",
+      "count": 108092
+    },
+    {
+      "source": "https://huggingface.co/datasets/dair-ai/emotion",
+      "count": 100000
+    },
+    {
+      "source": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "count": 85962
+    },
+    {
+      "source": "https://huggingface.co/datasets/jniimi/tripadvisor-review-rating",
+      "count": 67041
+    },
+    {
+      "source": "https://www.kaggle.com/competitions/sentiment-analysis-company-reviews/data?select=train.csv",
+      "count": 58297
+    },
+    {
+      "source": "https://huggingface.co/datasets/scikit-learn/imdb",
+      "count": 49581
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/mfaaris/spotify-app-reviews-2022",
+      "count": 39995
+    },
+    {
+      "source": "https://huggingface.co/datasets/Andyrasika/amazon-sentiment-dataset",
+      "count": 39978
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/ashishkumarak/play-store-reviews-facebook",
+      "count": 39832
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/bwandowando/grab-app-reviews-from-google-store",
+      "count": 39814
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/ashishkumarak/chatgpt-reviews-daily-updated",
+      "count": 27940
+    },
+    {
+      "source": "https://huggingface.co/datasets/RobertoMCA97/financial_sentiment_analysis_train_compilation_v2",
+      "count": 27617
+    },
+    {
+      "source": "https://huggingface.co/datasets/Gopalatius/google-play-review",
+      "count": 26107
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/khushipitroda/airline-reviews",
+      "count": 19948
+    },
+    {
+      "source": "https://huggingface.co/datasets/syedkhalid076/Sentiment-Analysis",
+      "count": 12300
+    },
+    {
+      "source": "https://www.kaggle.com/code/meetnagadia/amazon-kindle-book-sentiment-analysis/input",
+      "count": 11994
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/kanchana1990/singapore-airlines-reviews",
+      "count": 8991
+    },
+    {
+      "source": "https://huggingface.co/datasets/chillies/course-review-multilabel-sentiment-analysis",
+      "count": 8128
+    },
+    {
+      "source": "https://huggingface.co/datasets/scholl99/finance_sentiment_analysis_v0",
+      "count": 5833
+    },
+    {
+      "source": "https://huggingface.co/datasets/ccerpas/sentiment-banking-1",
+      "count": 4999
+    },
+    {
+      "source": "https://huggingface.co/datasets/torileatherman/sentiment_analysis_training",
+      "count": 3832
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 3033
+    },
+    {
+      "source": "https://huggingface.co/datasets/MAPAi/Inflation_News_Sentiment_Analysis",
+      "count": 1114
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/fiodarryzhykau/employee-review",
+      "count": 997
+    },
+    {
+      "source": "https://huggingface.co/datasets/FinanceInc/auditor_sentiment",
+      "count": 629
+    }
+  ],
+  "zh": [
+    {
+      "source": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "count": 124984
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 123358
+    },
+    {
+      "source": "https://zenodo.org/records/10488077",
+      "count": 102770
+    },
+    {
+      "source": "https://huggingface.co/datasets/leadingbridge/sentiment-analysis",
+      "count": 60605
+    },
+    {
+      "source": "https://huggingface.co/datasets/dirtycomputer/JD_review",
+      "count": 33118
+    }
+  ],
+  "ko": [
+    {
+      "source": "https://data.niaid.nih.gov/resources?id=mendeley_jb5knzh8yv",
+      "count": 200000
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/ninetyninenewton/kr3-korean-restaurant-reviews-with-ratings",
+      "count": 59998
+    }
+  ],
+  "pt": [
+    {
+      "source": "https://github.com/americanas-tech/b2w-reviews01",
+      "count": 45859
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 3033
+    },
+    {
+      "source": "https://huggingface.co/datasets/juniorrios/b2w_sentimentanalysis_icomp",
+      "count": 296
+    }
+  ],
+  "ar": [
+    {
+      "source": "https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews",
+      "count": 99651
+    },
+    {
+      "source": "https://www.kaggle.com/competitions/arabic-sentiment-analysis-2021-kaust/data",
+      "count": 72245
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/fahdseddik/arabic-company-reviews",
+      "count": 33450
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 3029
+    }
+  ],
+  "ja": [
+    {
+      "source": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "count": 209839
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 125817
+    }
+  ],
+  "es": [
+    {
+      "source": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "count": 209744
+    },
+    {
+      "source": "https://huggingface.co/datasets/iberbench/tass2020_sentiment_analysis",
+      "count": 12024
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 1143
+    }
+  ],
+  "de": [
+    {
+      "source": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "count": 209876
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 2977
+    }
+  ],
+  "fr": [
+    {
+      "source": "https://huggingface.co/datasets/mteb/amazon_reviews_multi",
+      "count": 209618
+    },
+    {
+      "source": "https://huggingface.co/datasets/tblard/allocine",
+      "count": 50000
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 3027
+    }
+  ],
+  "ru": [
+    {
+      "source": "https://github.com/yandex/geo-reviews-dataset-2023",
+      "count": 106435
+    },
+    {
+      "source": "https://github.com/sismetanin/rureviews/blob/master/women-clothing-accessories.3-class.balanced.csv",
+      "count": 86756
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/romanberdyshev/bank-reviews-dataset",
+      "count": 11995
+    }
+  ],
+  "hi": [
+    {
+      "source": "https://www.kaggle.com/datasets/praths71018/hindi-sentiment-dataset",
+      "count": 6536
+    },
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 2887
+    }
+  ],
+  "vi": [
+    {
+      "source": "https://www.kaggle.com/datasets/biminhc/tiki-books-dataset?select=comments.csv",
+      "count": 35446
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/hienbm/vnecom-reviews",
+      "count": 30000
+    },
+    {
+      "source": "https://www.kaggle.com/datasets/linhlpv/vietnamese-sentiment-analyst",
+      "count": 20313
+    },
+    {
+      "source": "https://huggingface.co/datasets/uitnlp/vietnamese_students_feedback",
+      "count": 16070
+    },
+    {
+      "source": "https://huggingface.co/datasets/thanhchauns2/vietnamese-sentiment-analysis",
+      "count": 10008
+    },
+    {
+      "source": "https://huggingface.co/datasets/nlplabtdtu/sentiment-analysis-UIT",
+      "count": 9982
+    },
+    {
+      "source": "https://drive.google.com/drive/folders/1HooABJyrddVGzll7fgkJ6VzkG_XuWfRu",
+      "count": 5249
+    }
+  ],
+  "ms": [
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 6661
+    }
+  ],
+  "id": [
+    {
+      "source": "https://huggingface.co/datasets/tyqiangz/multilingual-sentiments",
+      "count": 11181
+    },
+    {
+      "source": "https://github.com/IndoNLP/indonlu/tree/master/dataset/smsa_doc-sentiment-prosa",
+      "count": 1355
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "en": [
+    {
+      "domain": "places reviews",
+      "count": 389963
+    },
+    {
+      "domain": "hotel reviews",
+      "count": 234169
+    },
+    {
+      "domain": "products reviews, films reviews, wiki",
+      "count": 170715
+    },
+    {
+      "domain": "app reviews",
+      "count": 145748
+    },
+    {
+      "domain": "amazon reviews",
+      "count": 125940
+    },
+    {
+      "domain": "restaurant reviews",
+      "count": 108092
+    },
+    {
+      "domain": "emotion",
+      "count": 100000
+    },
+    {
+      "domain": "movie reviews",
+      "count": 61881
+    },
+    {
+      "domain": "company reviews",
+      "count": 58297
+    },
+    {
+      "domain": "finance",
+      "count": 34079
+    },
+    {
+      "domain": "airlines reviews",
+      "count": 28939
+    },
+    {
+      "domain": "GPT reviews",
+      "count": 27940
+    },
+    {
+      "domain": "books reviews",
+      "count": 11994
+    },
+    {
+      "domain": "courses reviews",
+      "count": 8128
+    },
+    {
+      "domain": "banking reviews",
+      "count": 4999
+    },
+    {
+      "domain": "company news",
+      "count": 3832
+    },
+    {
+      "domain": "tweets",
+      "count": 3033
+    },
+    {
+      "domain": "finance news",
+      "count": 1114
+    },
+    {
+      "domain": "employee reviews",
+      "count": 997
+    }
+  ],
+  "zh": [
+    {
+      "domain": "amazon reviews",
+      "count": 124984
+    },
+    {
+      "domain": "tweets",
+      "count": 123358
+    },
+    {
+      "domain": "22 domains",
+      "count": 102770
+    },
+    {
+      "domain": "books reviews",
+      "count": 60605
+    },
+    {
+      "domain": "products reviews",
+      "count": 33118
+    }
+  ],
+  "ko": [
+    {
+      "domain": "movie reviews",
+      "count": 200000
+    },
+    {
+      "domain": "restaurant reviews",
+      "count": 59998
+    }
+  ],
+  "pt": [
+    {
+      "domain": "products reviews",
+      "count": 46155
+    },
+    {
+      "domain": "tweets",
+      "count": 3033
+    }
+  ],
+  "ar": [
+    {
+      "domain": "reviews (hotels, books, movies, products and a few airlines)",
+      "count": 99651
+    },
+    {
+      "domain": "tweets",
+      "count": 75274
+    },
+    {
+      "domain": "company reviews",
+      "count": 33450
+    }
+  ],
+  "ja": [
+    {
+      "domain": "amazon reviews",
+      "count": 209839
+    },
+    {
+      "domain": "tweets",
+      "count": 125817
+    }
+  ],
+  "es": [
+    {
+      "domain": "amazon reviews",
+      "count": 209744
+    },
+    {
+      "domain": "media posts",
+      "count": 12024
+    },
+    {
+      "domain": "tweets",
+      "count": 1143
+    }
+  ],
+  "de": [
+    {
+      "domain": "amazon reviews",
+      "count": 209876
+    },
+    {
+      "domain": "tweets",
+      "count": 2977
+    }
+  ],
+  "fr": [
+    {
+      "domain": "amazon reviews",
+      "count": 209618
+    },
+    {
+      "domain": "movie reviews",
+      "count": 50000
+    },
+    {
+      "domain": "tweets",
+      "count": 3027
+    }
+  ],
+  "ru": [
+    {
+      "domain": "organization reviews",
+      "count": 106435
+    },
+    {
+      "domain": "products reviews",
+      "count": 86756
+    },
+    {
+      "domain": "banking reviews",
+      "count": 11995
+    }
+  ],
+  "hi": [
+    {
+      "domain": "emotion",
+      "count": 6536
+    },
+    {
+      "domain": "tweets",
+      "count": 2887
+    }
+  ],
+  "vi": [
+    {
+      "domain": "books reviews",
+      "count": 35446
+    },
+    {
+      "domain": "products reviews",
+      "count": 30321
+    },
+    {
+      "domain": "reviews (app, products)",
+      "count": 30000
+    },
+    {
+      "domain": "education",
+      "count": 16070
+    },
+    {
+      "domain": "hotel reviews",
+      "count": 9982
+    },
+    {
+      "domain": "emotion",
+      "count": 5249
+    }
+  ],
+  "ms": [
+    {
+      "domain": "tweets",
+      "count": 6661
+    }
+  ],
+  "id": [
+    {
+      "domain": "tweets",
+      "count": 11181
+    },
+    {
+      "domain": "general (reviews, ...)",
+      "count": 1355
+    }
+  ]
+}

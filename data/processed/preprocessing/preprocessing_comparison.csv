@@ -1,0 +1,10 @@
+Language,Strategy,Samples,Affected Rows (%),Empty Rows,Avg Len Before,Avg Len After,Length Reduction (%),Collapsed Duplicates
+EN,Minimal,2000,14.9%,0,434.0,434.0,0.0%,0
+ZH,Minimal,2000,27.9%,0,48.4,48.4,0.0%,0
+AR,Minimal,2000,0.2%,0,172.7,172.7,0.0%,0
+EN,Standard,2000,90.8%,0,434.0,434.9,-0.2%,0
+ZH,Standard,2000,89.8%,0,48.4,47.8,1.3%,0
+AR,Standard,2000,62.3%,0,172.7,170.8,1.1%,0
+EN,Aggressive,2000,92.1%,2,434.0,423.8,2.4%,1
+ZH,Aggressive,2000,97.4%,0,48.4,46.5,3.8%,0
+AR,Aggressive,2000,90.8%,0,172.7,165.8,4.0%,1
