@@ -1,0 +1,4 @@
+# Model weights are ~1.1 GB (too big for GitHub) - share them via Google Drive / Hugging Face Hub
+saved_model/
+checkpoints/
+*.zip
