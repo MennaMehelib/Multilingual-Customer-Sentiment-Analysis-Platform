@@ -1,0 +1,4 @@
+language,total_samples,classical_errors,transformer_errors,classical_error_rate,transformer_error_rate
+ar,4500,1432,1130,0.31822222222222224,0.2511111111111111
+en,4500,1273,1071,0.2828888888888889,0.238
+zh,4500,2411,1350,0.5357777777777778,0.3

@@ -29,6 +29,8 @@ models/checkpoints/
 # MLflow tracking
 mlruns/
 .mlflow/
+Evaluation & MLflow/mlflow.db
+Evaluation & MLflow/mlartifacts/
 
 # OS specific files
 .DS_Store

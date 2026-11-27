@@ -1,0 +1,4 @@
+true_label,total_samples,classical_errors,transformer_errors,classical_error_rate,transformer_error_rate
+negative,4500,1962,1176,0.436,0.2613333333333333
+neutral,4500,1262,1479,0.28044444444444444,0.32866666666666666
+positive,4500,1892,896,0.42044444444444445,0.1991111111111111
