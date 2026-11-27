@@ -1,0 +1,8 @@
+﻿text,prediction,confidence
+The service was excellent and the staff were very friendly!,positive,0.965
+"Terrible experience, the product arrived broken.",negative,0.973
+"It's okay, nothing special.",negative,0.911
+الخدمة ممتازة والتوصيل كان سريع جدا,positive,0.991
+المنتج وحش جدا ومحدش رد عليا,negative,0.993
+这个产品质量很好，我很满意,positive,0.982
+还行吧，一般般,neutral,0.818
