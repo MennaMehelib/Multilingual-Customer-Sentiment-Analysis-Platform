@@ -1,0 +1,13 @@
+Model: Naive Bayes
+N-grams: Unigrams + Bigrams
+Split: validation
+
+              precision    recall  f1-score   support
+
+    negative       0.50      0.78      0.61      4500
+     neutral       0.59      0.45      0.51      4500
+    positive       0.74      0.51      0.60      4500
+
+    accuracy                           0.58     13500
+   macro avg       0.61      0.58      0.58     13500
+weighted avg       0.61      0.58      0.58     13500

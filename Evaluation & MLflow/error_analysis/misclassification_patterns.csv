@@ -1,0 +1,7 @@
+label,predicted,error_count
+negative,neutral,1584
+positive,neutral,1422
+neutral,negative,632
+neutral,positive,630
+positive,negative,470
+negative,positive,378

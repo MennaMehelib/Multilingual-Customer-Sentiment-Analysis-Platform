@@ -1,0 +1,27 @@
+
+CLASSICAL NLP ERROR ANALYSIS SUMMARY
+=====================================
+
+Selected Model:
+Model: Logistic Regression
+N-grams: Unigrams
+Validation F1 Macro: 0.6179
+
+Test Set:
+Total Samples: 13500
+Incorrect Predictions: 5116
+Correct Predictions: 8384
+Overall Error Rate: 37.90%
+
+Error Analysis Files:
+- errors_by_language.csv
+- errors_by_sentiment.csv
+- misclassification_patterns.csv
+- confidence_error_analysis.csv
+- misclassified_examples.csv
+
+Generated Charts:
+- error_rate_by_language.png
+- error_rate_by_sentiment.png
+- misclassification_patterns.png
+- error_confidence_distribution.png

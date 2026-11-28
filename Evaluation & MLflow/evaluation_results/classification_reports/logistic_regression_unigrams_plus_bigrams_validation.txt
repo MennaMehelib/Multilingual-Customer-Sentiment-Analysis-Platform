@@ -1,0 +1,13 @@
+Model: Logistic Regression
+N-grams: Unigrams + Bigrams
+Split: validation
+
+              precision    recall  f1-score   support
+
+    negative       0.69      0.54      0.61      4500
+     neutral       0.50      0.73      0.59      4500
+    positive       0.73      0.55      0.63      4500
+
+    accuracy                           0.61     13500
+   macro avg       0.64      0.61      0.61     13500
+weighted avg       0.64      0.61      0.61     13500

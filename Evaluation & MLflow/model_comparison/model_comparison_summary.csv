@@ -1,0 +1,5 @@
+﻿error_category,sample_count,percentage
+Both Correct,7054,52.251851851851846
+Classical Wrong - Transformer Correct,2895,21.444444444444443
+Both Wrong,2221,16.45185185185185
+Classical Correct - Transformer Wrong,1330,9.851851851851851
